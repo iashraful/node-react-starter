@@ -6,4 +6,4 @@ const productSchema = new Schema({
     description: String,
 })
 
-model('products', productSchema);
+export default model('products', productSchema);

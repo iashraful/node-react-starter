@@ -1,5 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
+import graphqlHTTP from 'express-graphql';
 import { json } from 'body-parser';
 
 const app = express();
